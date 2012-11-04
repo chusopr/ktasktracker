@@ -1,7 +1,7 @@
 #ifndef EDITTASKDIALOG_H
 #define EDITTASKDIALOG_H
 
-#include <QDialog>
+#include <QtGui/QDialog>
 #include "desktoplist.h"
 #include "taskview.h"
 

@@ -25,7 +25,6 @@
 
 #include <QMenu>
 #include <QString>
-#include <QTimer>
 
 #include <KAction>
 #include <KApplication>       // kapp
@@ -87,9 +86,8 @@ MainWindow::MainWindow( const QString &icsfile )
         }
         else
         {
-          kError() << "Could not find the KTimeTracker part: m_part is 0";
           KMessageBox::error(this, i18n( "Could not create the KTimeTracker part." ));
-          QTimer::singleShot(0, qApp, SLOT(quit()));
+          qApp->quit();
           return;
         }
     }
@@ -97,9 +95,8 @@ MainWindow::MainWindow( const QString &icsfile )
     {
         // if we couldn't find our Part, we exit since the Shell by
         // itself can't do anything useful
-        kError() << "Could not find the KTimeTracker part: factory is 0";
         KMessageBox::error(this, i18n( "Could not find the KTimeTracker part." ));
-        QTimer::singleShot(0, qApp, SLOT(quit()));
+        qApp->quit();
         // we return here, cause qApp->quit() only means "exit the
         // next time we enter the event loop...
         return;
