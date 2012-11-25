@@ -1,0 +1,358 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'timetrackerwidget.h'
+**
+** Created: Sun Nov 25 21:32:34 2012
+**      by: The Qt Meta Object Compiler version 63 (Qt 4.8.3)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include "timetrackerwidget.h"
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'timetrackerwidget.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 63
+#error "This file was generated using the moc from 4.8.3. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+static const uint qt_meta_data_TimetrackerWidget[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      68,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+      11,       // signalCount
+
+ // signals: signature, parameters, type, tag, flags
+      22,   19,   18,   18, 0x05,
+      42,   18,   18,   18, 0x05,
+      63,   18,   18,   18, 0x05,
+      88,   18,   18,   18, 0x05,
+     118,  104,   18,   18, 0x05,
+     147,   18,   18,   18, 0x05,
+     165,  160,   18,   18, 0x05,
+     207,  203,   18,   18, 0x05,
+     236,   18,   18,   18, 0x05,
+     251,   18,   18,   18, 0x05,
+     268,   18,   18,   18, 0x05,
+
+ // slots: signature, parameters, type, tag, flags
+     304,  295,   18,   18, 0x0a,
+     322,   18,   18,   18, 0x2a,
+     333,  295,   18,   18, 0x0a,
+     353,   18,  348,   18, 0x0a,
+     365,   18,   18,   18, 0x0a,
+     380,   18,  376,   18, 0x0a,
+     405,  397,   18,   18, 0x0a,
+     425,   18,  348,   18, 0x0a,
+     441,   18,   18,   18, 0x0a,
+     457,   18,   18,   18, 0x0a,
+     487,  475,   18,   18, 0x0a,
+     515,   18,   18,   18, 0x0a,
+     535,   18,   18,   18, 0x0a,
+     559,  554,   18,   18, 0x0a,
+     584,   18,   18,   18, 0x2a,
+     600,   18,   18,   18, 0x0a,
+     610,   18,   18,   18, 0x0a,
+     623,   18,   18,   18, 0x0a,
+     634,   18,   18,   18, 0x0a,
+     647,   18,   18,   18, 0x0a,
+     668,   18,   18,   18, 0x0a,
+     691,   18,   18,   18, 0x0a,
+     707,   18,   18,   18, 0x0a,
+     726,  295,   18,   18, 0x0a,
+     749,   18,   18,   18, 0x2a,
+     765,   18,   18,   18, 0x0a,
+     783,   18,   18,   18, 0x0a,
+     797,   18,   18,   18, 0x0a,
+     813,   18,   18,   18, 0x0a,
+     829,   18,   18,   18, 0x0a,
+     853,   18,  845,   18, 0x0a,
+     884,  875,  863,   18, 0x0a,
+     909,  875,   18,   18, 0x0a,
+     942,  926,   18,   18, 0x0a,
+     977,  970,   18,   18, 0x0a,
+    1012,  997,   18,   18, 0x0a,
+    1059, 1044,  376,   18, 0x0a,
+    1093, 1083,  845,   18, 0x0a,
+    1104,   18,  348,   18, 0x0a,
+    1130,  970,  376,   18, 0x0a,
+    1161,  970,   18,   18, 0x0a,
+    1184,  970,   18,   18, 0x0a,
+    1206,  875,  348,   18, 0x0a,
+    1237,  875,  348,   18, 0x0a,
+    1267,   18,   18,   18, 0x0a,
+    1349, 1287,  845,   18, 0x0a,
+    1427, 1418,   18,   18, 0x0a,
+    1454,   18,  863,   18, 0x0a,
+    1462,   18,  863,   18, 0x0a,
+    1476,  970,  348,   18, 0x0a,
+    1494,  970,  348,   18, 0x0a,
+    1520,   18,   18,   18, 0x0a,
+    1530,   18,   18,   18, 0x0a,
+    1537,   18,   18,   18, 0x08,
+    1558,  875,   18,   18, 0x08,
+    1579,   18,   18,   18, 0x08,
+    1599,   18,   18,   18, 0x08,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_TimetrackerWidget[] = {
+    "TimetrackerWidget\0\0qs\0setCaption(QString)\0"
+    "currentTaskChanged()\0currentTaskViewChanged()\0"
+    "updateButtons()\0session,total\0"
+    "totalTimesChanged(long,long)\0reSetTimes()\0"
+    "text\0statusBarTextChangeRequested(QString)\0"
+    "pos\0contextMenuRequested(QPoint)\0"
+    "timersActive()\0timersInactive()\0"
+    "tasksChanged(QList<Task*>)\0fileName\0"
+    "openFile(QString)\0openFile()\0"
+    "openFile(KUrl)\0bool\0closeFile()\0"
+    "saveFile()\0int\0focusSearchBar()\0visible\0"
+    "showSearchBar(bool)\0closeAllFiles()\0"
+    "timersActive2()\0timersInactive2()\0"
+    "activeTasks\0tasksChanged2(QList<Task*>)\0"
+    "startCurrentTimer()\0stopCurrentTimer()\0"
+    "when\0stopAllTimers(QDateTime)\0"
+    "stopAllTimers()\0newTask()\0newSubTask()\0"
+    "editTask()\0deleteTask()\0markTaskAsComplete()\0"
+    "markTaskAsIncomplete()\0exportcsvFile()\0"
+    "exportcsvHistory()\0importPlanner(QString)\0"
+    "importPlanner()\0startNewSession()\0"
+    "editHistory()\0resetAllTimes()\0"
+    "focusTracking()\0slotSearchBar()\0QString\0"
+    "version()\0QStringList\0taskName\0"
+    "taskIdsFromName(QString)\0addTask(QString)\0"
+    "taskName,taskId\0addSubTask(QString,QString)\0"
+    "taskId\0deleteTask(QString)\0taskId,percent\0"
+    "setPercentComplete(QString,int)\0"
+    "taskId,minutes\0changeTime(QString,int)\0"
+    "errorCode\0error(int)\0isIdleDetectionPossible()\0"
+    "totalMinutesForTaskId(QString)\0"
+    "startTimerFor(QString)\0stopTimerFor(QString)\0"
+    "startTimerForTaskName(QString)\0"
+    "stopTimerForTaskName(QString)\0"
+    "stopAllTimersDBUS()\0"
+    "filename,from,to,type,decimalMinutes,allTasks,delimiter,quote\0"
+    "exportCSVFile(QString,QString,QString,int,bool,bool,QString,QString)\0"
+    "filename\0importPlannerFile(QString)\0"
+    "tasks()\0activeTasks()\0isActive(QString)\0"
+    "isTaskNameActive(QString)\0saveAll()\0"
+    "quit()\0slotCurrentChanged()\0"
+    "slotAddTask(QString)\0slotUpdateButtons()\0"
+    "showSettingsDialog()\0"
+};
+
+void TimetrackerWidget::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        TimetrackerWidget *_t = static_cast<TimetrackerWidget *>(_o);
+        switch (_id) {
+        case 0: _t->setCaption((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 1: _t->currentTaskChanged(); break;
+        case 2: _t->currentTaskViewChanged(); break;
+        case 3: _t->updateButtons(); break;
+        case 4: _t->totalTimesChanged((*reinterpret_cast< long(*)>(_a[1])),(*reinterpret_cast< long(*)>(_a[2]))); break;
+        case 5: _t->reSetTimes(); break;
+        case 6: _t->statusBarTextChangeRequested((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 7: _t->contextMenuRequested((*reinterpret_cast< const QPoint(*)>(_a[1]))); break;
+        case 8: _t->timersActive(); break;
+        case 9: _t->timersInactive(); break;
+        case 10: _t->tasksChanged((*reinterpret_cast< const QList<Task*>(*)>(_a[1]))); break;
+        case 11: _t->openFile((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 12: _t->openFile(); break;
+        case 13: _t->openFile((*reinterpret_cast< const KUrl(*)>(_a[1]))); break;
+        case 14: { bool _r = _t->closeFile();
+            if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = _r; }  break;
+        case 15: _t->saveFile(); break;
+        case 16: { int _r = _t->focusSearchBar();
+            if (_a[0]) *reinterpret_cast< int*>(_a[0]) = _r; }  break;
+        case 17: _t->showSearchBar((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 18: { bool _r = _t->closeAllFiles();
+            if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = _r; }  break;
+        case 19: _t->timersActive2(); break;
+        case 20: _t->timersInactive2(); break;
+        case 21: _t->tasksChanged2((*reinterpret_cast< QList<Task*>(*)>(_a[1]))); break;
+        case 22: _t->startCurrentTimer(); break;
+        case 23: _t->stopCurrentTimer(); break;
+        case 24: _t->stopAllTimers((*reinterpret_cast< const QDateTime(*)>(_a[1]))); break;
+        case 25: _t->stopAllTimers(); break;
+        case 26: _t->newTask(); break;
+        case 27: _t->newSubTask(); break;
+        case 28: _t->editTask(); break;
+        case 29: _t->deleteTask(); break;
+        case 30: _t->markTaskAsComplete(); break;
+        case 31: _t->markTaskAsIncomplete(); break;
+        case 32: _t->exportcsvFile(); break;
+        case 33: _t->exportcsvHistory(); break;
+        case 34: _t->importPlanner((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 35: _t->importPlanner(); break;
+        case 36: _t->startNewSession(); break;
+        case 37: _t->editHistory(); break;
+        case 38: _t->resetAllTimes(); break;
+        case 39: _t->focusTracking(); break;
+        case 40: _t->slotSearchBar(); break;
+        case 41: { QString _r = _t->version();
+            if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = _r; }  break;
+        case 42: { QStringList _r = _t->taskIdsFromName((*reinterpret_cast< const QString(*)>(_a[1])));
+            if (_a[0]) *reinterpret_cast< QStringList*>(_a[0]) = _r; }  break;
+        case 43: _t->addTask((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 44: _t->addSubTask((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2]))); break;
+        case 45: _t->deleteTask((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 46: _t->setPercentComplete((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2]))); break;
+        case 47: { int _r = _t->changeTime((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2])));
+            if (_a[0]) *reinterpret_cast< int*>(_a[0]) = _r; }  break;
+        case 48: { QString _r = _t->error((*reinterpret_cast< int(*)>(_a[1])));
+            if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = _r; }  break;
+        case 49: { bool _r = _t->isIdleDetectionPossible();
+            if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = _r; }  break;
+        case 50: { int _r = _t->totalMinutesForTaskId((*reinterpret_cast< const QString(*)>(_a[1])));
+            if (_a[0]) *reinterpret_cast< int*>(_a[0]) = _r; }  break;
+        case 51: _t->startTimerFor((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 52: _t->stopTimerFor((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 53: { bool _r = _t->startTimerForTaskName((*reinterpret_cast< const QString(*)>(_a[1])));
+            if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = _r; }  break;
+        case 54: { bool _r = _t->stopTimerForTaskName((*reinterpret_cast< const QString(*)>(_a[1])));
+            if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = _r; }  break;
+        case 55: _t->stopAllTimersDBUS(); break;
+        case 56: { QString _r = _t->exportCSVFile((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2])),(*reinterpret_cast< const QString(*)>(_a[3])),(*reinterpret_cast< int(*)>(_a[4])),(*reinterpret_cast< bool(*)>(_a[5])),(*reinterpret_cast< bool(*)>(_a[6])),(*reinterpret_cast< const QString(*)>(_a[7])),(*reinterpret_cast< const QString(*)>(_a[8])));
+            if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = _r; }  break;
+        case 57: _t->importPlannerFile((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 58: { QStringList _r = _t->tasks();
+            if (_a[0]) *reinterpret_cast< QStringList*>(_a[0]) = _r; }  break;
+        case 59: { QStringList _r = _t->activeTasks();
+            if (_a[0]) *reinterpret_cast< QStringList*>(_a[0]) = _r; }  break;
+        case 60: { bool _r = _t->isActive((*reinterpret_cast< const QString(*)>(_a[1])));
+            if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = _r; }  break;
+        case 61: { bool _r = _t->isTaskNameActive((*reinterpret_cast< const QString(*)>(_a[1])));
+            if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = _r; }  break;
+        case 62: _t->saveAll(); break;
+        case 63: _t->quit(); break;
+        case 64: _t->slotCurrentChanged(); break;
+        case 65: _t->slotAddTask((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 66: _t->slotUpdateButtons(); break;
+        case 67: _t->showSettingsDialog(); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData TimetrackerWidget::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject TimetrackerWidget::staticMetaObject = {
+    { &QWidget::staticMetaObject, qt_meta_stringdata_TimetrackerWidget,
+      qt_meta_data_TimetrackerWidget, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &TimetrackerWidget::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *TimetrackerWidget::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *TimetrackerWidget::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_TimetrackerWidget))
+        return static_cast<void*>(const_cast< TimetrackerWidget*>(this));
+    return QWidget::qt_metacast(_clname);
+}
+
+int TimetrackerWidget::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QWidget::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 68)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 68;
+    }
+    return _id;
+}
+
+// SIGNAL 0
+void TimetrackerWidget::setCaption(const QString & _t1)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 0, _a);
+}
+
+// SIGNAL 1
+void TimetrackerWidget::currentTaskChanged()
+{
+    QMetaObject::activate(this, &staticMetaObject, 1, 0);
+}
+
+// SIGNAL 2
+void TimetrackerWidget::currentTaskViewChanged()
+{
+    QMetaObject::activate(this, &staticMetaObject, 2, 0);
+}
+
+// SIGNAL 3
+void TimetrackerWidget::updateButtons()
+{
+    QMetaObject::activate(this, &staticMetaObject, 3, 0);
+}
+
+// SIGNAL 4
+void TimetrackerWidget::totalTimesChanged(long _t1, long _t2)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    QMetaObject::activate(this, &staticMetaObject, 4, _a);
+}
+
+// SIGNAL 5
+void TimetrackerWidget::reSetTimes()
+{
+    QMetaObject::activate(this, &staticMetaObject, 5, 0);
+}
+
+// SIGNAL 6
+void TimetrackerWidget::statusBarTextChangeRequested(const QString & _t1)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 6, _a);
+}
+
+// SIGNAL 7
+void TimetrackerWidget::contextMenuRequested(const QPoint & _t1)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 7, _a);
+}
+
+// SIGNAL 8
+void TimetrackerWidget::timersActive()
+{
+    QMetaObject::activate(this, &staticMetaObject, 8, 0);
+}
+
+// SIGNAL 9
+void TimetrackerWidget::timersInactive()
+{
+    QMetaObject::activate(this, &staticMetaObject, 9, 0);
+}
+
+// SIGNAL 10
+void TimetrackerWidget::tasksChanged(const QList<Task*> & _t1)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 10, _a);
+}
+QT_END_MOC_NAMESPACE

@@ -24,6 +24,7 @@
 #include "timetrackerwidget.h"
 #include "ktimetrackerconfigdialog.h"
 
+#include <QList>
 #include <QDBusConnection>
 #include <QFileInfo>
 #include <QHBoxLayout>
@@ -160,6 +161,12 @@ void TimetrackerWidget::addTaskView( const QString &fileName )
 
     connect( taskView, SIGNAL(contextMenuRequested(QPoint)),
            this, SIGNAL(contextMenuRequested(QPoint)) );
+    connect( taskView, SIGNAL(timersActive()),
+           this, SLOT(timersActive2()) );
+    connect( taskView, SIGNAL(timersInactive()),
+           this, SLOT(timersInactive2()) );
+    connect( taskView, SIGNAL(tasksChanged(QList<Task*>)),
+           this, SLOT(tasksChanged2(QList<Task*>)));
 
     emit setCaption( fileName );
     taskView->load( lFileName );
@@ -171,6 +178,21 @@ void TimetrackerWidget::addTaskView( const QString &fileName )
         emit currentTaskViewChanged();
         slotCurrentChanged();
     }
+}
+
+void TimetrackerWidget::timersActive2()
+{
+  emit timersActive();
+}
+
+void TimetrackerWidget::timersInactive2()
+{
+  emit timersInactive();
+}
+
+void TimetrackerWidget::tasksChanged2(QList<Task*> q)
+{
+  emit tasksChanged(q);
 }
 
 TaskView* TimetrackerWidget::currentTaskView() const
