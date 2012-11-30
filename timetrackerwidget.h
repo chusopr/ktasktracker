@@ -22,7 +22,6 @@
 #ifndef TIMETRACKER_WIDGET_H
 #define TIMETRACKER_WIDGET_H
 
-#include <QList>
 #include <kconfiggroup.h>
 #include <QWidget>
 #include <QDateTime>
@@ -126,11 +125,6 @@ class TimetrackerWidget : public QWidget
      */
     bool closeAllFiles();
 
-    void timersActive2();
-
-    void timersInactive2();
-
-    void tasksChanged2(QList<Task*> activeTasks);
 
     //BEGIN wrapper slots
     /*
