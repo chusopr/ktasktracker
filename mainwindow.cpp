@@ -124,6 +124,11 @@ MainWindow::MainWindow( const QString &icsfile )
     }
 }
 
+QList<Task*> MainWindow::activeTasks()
+{
+  return ((TimetrackerWidget*)m_part->widget())->currentTaskView()->activeTasks();
+}
+
 void MainWindow::setupActions()
 {
     configureAction = new KAction(this);
