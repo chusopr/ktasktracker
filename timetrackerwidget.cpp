@@ -24,7 +24,6 @@
 #include "timetrackerwidget.h"
 #include "ktimetrackerconfigdialog.h"
 
-#include <QList>
 #include <QDBusConnection>
 #include <QFileInfo>
 #include <QHBoxLayout>
